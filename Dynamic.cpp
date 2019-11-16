@@ -93,8 +93,8 @@ int main() {
     }
 
     min = TSPDynamic(1,0,VISITOU_TUDO, "");
-    cout << caminho_final << endl;
     cout << min << endl;
+    cout << caminho_final << endl;
 
     return 0;
 }
